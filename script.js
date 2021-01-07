@@ -21,7 +21,7 @@ const divideInput = document.getElementById('divide-input-1');
 const divideInput2 = document.getElementById('divide-input-2');
 const divideButton = document.getElementById('divide-button');
 const divideDisplay = document.getElementById('divide-display');
- 
+
 
 console.log(addDisplay);
 //Add a button 
@@ -54,6 +54,5 @@ divideButton.addEventListener('click', () => {
     const num1 = divideInput.value;
     const num2 = divideInput2.value;
     const result = Number(num1) / Number(num2);
-    divideDisplay.textContent = num1 + ' / ' + num2+ ' = ' + (Math.round(result).toFixed(2));
-    
+    divideDisplay.textContent = num1 + ' / ' + num2+ ' = ' + result.toFixed(2); 
 });
