@@ -44,4 +44,58 @@ section{
 
 .grad{
     background-image: radial-gradient(blue, orange);
+    text-align: center;
+}
+
+.drop-down ul{
+    list-style: none;
+    display: none;
+    font-family: 'Roboto', sans-serif;
+}
+.drop-down p:hover .drop-down ul{
+    display: inline-block;
+}
+.drop-down li{
+    list-style: none;
+    width: 120px;
+}
+
+.invert{
+    background-color: #FFF;
+}
+.drop-downs ul{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.drop-head{
+    text-align: center;
+}
+.drop-list{
+    list-style: none;
+    display: none;
+    bottom: 15px;
+    line-height: 2rem;
+}
+.drop-list button{
+    width: 20px;
+    height: 20px;
+}
+.drop-list li{
+    display: inline-block;
+}
+.drop-list:hover{
+    display: inline-block;
+    margin-top: 20px;
+}
+.drop-head:hover .drop-list{
+    display: inline-block;
+    width: 50px;
+}
+
+
+footer{
+    margin-top: 200px;
+    background-color: #FFF;
+    padding: 20px;
 }

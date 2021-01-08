@@ -53,6 +53,7 @@ export function someEventHandler(event){
     var x = event.target;
     console.log(x);
     const xId = x.getAttribute('id');
+    console.log(xId);
     const num1 = xNum.valueAsNumber;
     const num2 = xNum2.valueAsNumber;
    //
