@@ -20,7 +20,7 @@ const xRem = document.getElementById('remain');
 addButton.addEventListener('click',myClickHandlerAdd );
 subButton.addEventListener('click',myClickHandlerSub );
 multButton.addEventListener('click',myClickHandlerMult );
-divideButton.addEventListener('click',someEventHandler );
+divideButton.addEventListener('click',myClickHandlerDivide );
 
 xAdd.addEventListener('click', someEventHandler);
 xMin.addEventListener('click', someEventHandler);
